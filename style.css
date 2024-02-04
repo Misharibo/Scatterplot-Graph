@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    background-color: whitesmoke;
+
+}
+
+
+#tooltip{
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    color: rgb(56, 58, 74);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#legend{
+    margin-top: 5px;
+    color: black;
+    font-size:  20px;
+    text-align: center;
+}
+
+#title{
+    font-size: 18px;
+    fill: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
